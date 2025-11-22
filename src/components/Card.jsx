@@ -2,7 +2,7 @@ import { useState } from 'react'
 
 const Card = () => {
   return (
-    <div className='max-w-xs bg-white rounded-3xl mt-2 p-4 flex flex-col justify-content items-center shadow-lg'>
+    <div className='max-w-xs bg-white rounded-3xl mt-1 p-4 flex flex-col justify-content items-center shadow-lg'>
       <div>
         <img src='./assets/image-qr-code.png' className='rounded-xl' />
       </div>
@@ -11,7 +11,7 @@ const Card = () => {
         <h1 className='text-2xl font-display text-slate-900 font-bold text-center'>Improve your front-end skills by building projects</h1>
       </div>
 
-      <div className='px-4 mb-5 pt-3'>
+      <div className='px-4 mb-5 pt-2'>
         <p className='text-center text-[15px] font-display text-slate-500'>Scan the QR code to visit Frontend Mentor and take yout coding skills to the next level</p>
       </div>
     </div>
