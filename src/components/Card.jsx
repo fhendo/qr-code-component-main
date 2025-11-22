@@ -2,7 +2,7 @@ import { useState } from 'react'
 
 const Card = () => {
   return (
-    <div className='max-w-xs bg-white rounded-3xl mt-1 p-4 flex flex-col justify-content items-center shadow-lg'>
+    <div className='max-w-xs bg-white rounded-3xl mt-1 p-3 flex flex-col justify-content items-center shadow-lg'>
       <div>
         <img src='./assets/image-qr-code.png' className='rounded-xl' />
       </div>
